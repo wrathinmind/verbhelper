@@ -1,6 +1,9 @@
 # A tool to extract your wordlists from vebformen
+
 ## build
-docker build . -t verbformen
+1. git clone https://github.com/wrathinmind/verbhelper
+2. cd verbhelper
+3. `docker build . -t verbformen`
 
 ## usage
 1. Find your jsessionid using Developer Tools -> Application -> Cookies -> JSESSIONID. **e.g. AAAAAAAABBBBBBBCCCCCCC**
